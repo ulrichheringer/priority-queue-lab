@@ -1,5 +1,6 @@
 # priority-queue-lab
 
-Simulate FIFO tie-breaking, priority scheduling, and aging that prevents a queued job from starving.
+A command-line simulation of priority scheduling. Compare FIFO tie-breaking with aging, which eventually lets old low-priority jobs run.
 
-Install with go install github.com/ulrichheringer/priority-queue-lab@latest. Run priority-queue-lab --aging 2s to print each job's start time and wait.
+Install with go install github.com/ulrichheringer/priority-queue-lab@latest.
+Run priority-queue-lab --aging 2s to see the sample schedule.
